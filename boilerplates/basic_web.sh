@@ -16,9 +16,13 @@ echo ✏️  created file: $FOLDER_NAME/index.html
 touch $FOLDER_NAME/style.css
 echo ✏️  created file: $FOLDER_NAME/style.css
 #get libraries like jquery
-cd $FOLDER_NAME/js/libraries
-curl https://code.jquery.com/jquery-3.4.0.min.js -O
-echo ✏️  created file: $FOLDER_NAME/js/libraries/jquery-3.4.0.min.js
-cd ../../
+#cd $FOLDER_NAME/js/libraries
+#curl https://code.jquery.com/jquery-3.4.0.min.js -O
+#echo ✏️  created file: $FOLDER_NAME/js/libraries/jquery-3.4.0.min.js
+cd $FOLDER_NAME/
+git init
+cp /Users/yannpatrickmartins/Documents/shell_scripts/.gitignore .gitignore
+echo ✏️  created .gitignore file: $FOLDER_NAME/.gitignore
 THIS_PATH="$PWD"
 echo built all the folders and files in $THIS_PATH
+code .
