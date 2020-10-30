@@ -3,6 +3,8 @@
 ```bash
 # this is a comment
 
+say something # speaking computer
+
 pwd # print working directory
 
 cd path/to/folder # change directory
