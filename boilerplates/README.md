@@ -15,4 +15,4 @@ folder
 ├── index.html
 └── style.css
 ```
-## all the files will e empty!
+## all the files will be empty!
