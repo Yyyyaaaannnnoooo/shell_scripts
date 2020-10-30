@@ -11,6 +11,8 @@ cd .. # change to directory above
 
 cd ~ # change to home directory
 
+clear # clears terminal
+
 touch index.html # create a file
 
 mkdir folder-name # create folder
