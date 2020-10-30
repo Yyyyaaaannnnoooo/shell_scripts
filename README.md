@@ -23,5 +23,6 @@ rm path/to/file # remove file ⚠️ without moving it to trash 🗑
 
 rm -R path/to/folder # remove folder and its content ⚠️ without moving it to trash 🗑
 
+bash path/to/shell-script.sh # run shell script
 ```
 
