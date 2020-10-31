@@ -15,8 +15,8 @@ touch $FOLDER_NAME/index.html
 echo ✏️  created file: $FOLDER_NAME/index.html
 touch $FOLDER_NAME/style.css
 echo ✏️  created file: $FOLDER_NAME/style.css
-cp /Users/yannpatrickmartins/Documents/WEB/CSS/reset.css $FOLDER_NAME/reset.css
-echo ✏️  created file: $FOLDER_NAME/reset.css
+# cp /Users/yannpatrickmartins/Documents/WEB/CSS/reset.css $FOLDER_NAME/reset.css
+# echo ✏️  created file: $FOLDER_NAME/reset.css
 #get libraries like jquery
 #cd $FOLDER_NAME/js/libraries
 #curl https://code.jquery.com/jquery-3.4.0.min.js -O
